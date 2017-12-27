@@ -14,6 +14,8 @@
 		C655682C1EAE2AB000DD0465 /* BarcodeReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C655682A1EAE2AB000DD0465 /* BarcodeReader.xcdatamodeld */; };
 		C655682E1EAE2AB000DD0465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C655682D1EAE2AB000DD0465 /* Assets.xcassets */; };
 		C65568311EAE2AB000DD0465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C655682F1EAE2AB000DD0465 /* LaunchScreen.storyboard */; };
+		C655683A1EAE2ACB00DD0465 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C65568391EAE2ACB00DD0465 /* AVFoundation.framework */; };
+		C68C60311EAF7CDD00126210 /* KayitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C68C60301EAF7CDD00126210 /* KayitVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		C655682D1EAE2AB000DD0465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C65568301EAE2AB000DD0465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C65568321EAE2AB000DD0465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C65568391EAE2ACB00DD0465 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C68C602F1EAF7CDD00126210 /* KayitVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KayitVC.h; sourceTree = "<group>"; };
+		C68C60301EAF7CDD00126210 /* KayitVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KayitVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C655683A1EAE2ACB00DD0465 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +52,7 @@
 			children = (
 				C655681D1EAE2AB000DD0465 /* BarcodeReader */,
 				C655681C1EAE2AB000DD0465 /* Products */,
+				C65568381EAE2ACA00DD0465 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,8 @@
 				C65568221EAE2AB000DD0465 /* AppDelegate.m */,
 				C65568241EAE2AB000DD0465 /* ViewController.h */,
 				C65568251EAE2AB000DD0465 /* ViewController.m */,
+				C68C602F1EAF7CDD00126210 /* KayitVC.h */,
+				C68C60301EAF7CDD00126210 /* KayitVC.m */,
 				C65568271EAE2AB000DD0465 /* Main.storyboard */,
 				C655682D1EAE2AB000DD0465 /* Assets.xcassets */,
 				C655682F1EAE2AB000DD0465 /* LaunchScreen.storyboard */,
@@ -80,6 +89,14 @@
 				C655681F1EAE2AB000DD0465 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C65568381EAE2ACA00DD0465 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C65568391EAE2ACB00DD0465 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +175,7 @@
 				C655682C1EAE2AB000DD0465 /* BarcodeReader.xcdatamodeld in Sources */,
 				C65568231EAE2AB000DD0465 /* AppDelegate.m in Sources */,
 				C65568201EAE2AB000DD0465 /* main.m in Sources */,
+				C68C60311EAF7CDD00126210 /* KayitVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +336,7 @@
 				C65568371EAE2AB000DD0465 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
